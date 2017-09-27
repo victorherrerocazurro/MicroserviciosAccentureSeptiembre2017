@@ -1,0 +1,15 @@
+package com.accenture.holamundospringbootweb;
+
+import org.springframework.context.annotation.Configuration;
+
+import com.accenture.holamundospringbootweb.services.AdvancedLibrosServicio;
+import com.accenture.holamundospringbootweb.services.LibrosServicio;
+
+@Configuration
+public class ServiceConfiguracion {
+
+	public LibrosServicio libroServicio() {
+		return new AdvancedLibrosServicio();
+	}
+	
+}

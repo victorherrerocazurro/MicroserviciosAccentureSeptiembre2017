@@ -1,0 +1,30 @@
+package com.accenture.holamundospringbootweb;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+import com.accenture.holamundospringbootweb.controllers.HolaMundoController;
+
+@SpringBootApplication
+//Activa la interpretacion de la anotacion @Bean
+@Configuration
+//
+@ComponentScan(basePackages="com.accenture.holamundospringbootweb")
+public class HolaMundoSpringBootWebApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(HolaMundoSpringBootWebApplication.class, args);
+	}
+	
+	//Permite definir Beans en el contexto de Spring
+	@Bean
+	public HolaMundoController miBeanController() {
+		return new HolaMundoController("3");
+	}
+	
+	
+	
+}

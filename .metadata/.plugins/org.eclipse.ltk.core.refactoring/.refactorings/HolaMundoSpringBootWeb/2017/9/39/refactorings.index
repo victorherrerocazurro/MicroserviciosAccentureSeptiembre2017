@@ -1,0 +1,5 @@
+1506352185199	Delete element
+1506434019703	Extract local variable 'arrayList'
+1506441023987	Rename type 'LibrosController'
+1506441120544	Rename type 'LibrosServicio'
+1506441970338	Extract interface 'LibrosServicio'

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.simpsons.rest.thesimpsons.recursos.Personajes&apos; to &apos;Personaje&apos;&#x0D;&#x0A;- Original project: &apos;thesimpsons&apos;&#x0D;&#x0A;- Original element: &apos;com.simpsons.rest.thesimpsons.recursos.Personajes&apos;&#x0D;&#x0A;- Renamed element: &apos;com.simpsons.rest.thesimpsons.recursos.Personaje&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Personajes&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java&lt;com.simpsons.rest.thesimpsons.recursos{Personajes.java[Personajes" matchStrategy="1" name="Personaje" qualified="false" references="true" similarDeclarations="false" stamp="1506435723936" textual="false" version="1.0"/>
+</session>

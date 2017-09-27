@@ -1,0 +1,52 @@
+package com.accenture.holamundospringbootweb.services;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.accenture.holamundospringbootweb.persistence.LibroRepository;
+import com.accenture.holamundospringbootweb.recursos.Autor;
+import com.accenture.holamundospringbootweb.recursos.Libro;
+
+public class AdvancedLibrosServicio implements LibrosServicio {
+
+	@Autowired
+	private LibroRepository libroRepositorio;
+	
+	@Override
+	public Libro consultarLibroById(long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Autor consultarAutorDeLibroByIdLibro(long idLibro) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Libro> consultarLibrosByTitulo(String titulo) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public long altaLibro(Libro libro) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int modificarLibro(Libro libro) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int borrarLibroById(long id) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

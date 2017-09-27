@@ -1,0 +1,33 @@
+package com.accenture.holamundospringbootweb.services;
+
+import java.util.List;
+
+import com.accenture.holamundospringbootweb.recursos.Autor;
+import com.accenture.holamundospringbootweb.recursos.Libro;
+
+public class LibrosServicio {
+	
+	public Libro consultarLibroById(long id) {
+		return null;
+	}
+	
+	public Autor consultarAutorDeLibroByIdLibro(long id) {
+		return null;
+	}
+
+	public List<Libro> consultarLibrosByTitulo(String titulo) {
+		return null;
+		
+	}
+	
+	public void altaLibro(Libro libro) {
+
+	}
+	
+	public void modificarLibro(Libro libro) {
+		
+	}
+	
+	public void borrarLibroById(long id) {
+	}
+}

@@ -1,0 +1,15 @@
+package com.simpsons.rest.thesimpsons.controladores;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping(path="/Personajes")
+public class PersonajeController {
+
+	//Implementamos la peticion de consulta por Id
+	
+	//@RequestMapping(path="/{id}", method=RequestMethod.)
+	
+	
+}

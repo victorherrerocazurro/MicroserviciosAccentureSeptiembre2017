@@ -1,0 +1,18 @@
+package com.example.clienteserviciolibros;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class ClienteController {
+
+	@RequestMapping(path="/obtenerSaludo")
+	public String obtenerMensajeSaludoDelServidor(String nombre) {
+		//Invocar al servicio remoto, para obtener el saludo
+		
+		String saludo = null;
+		
+		return saludo + nombre;
+	}
+	
+}

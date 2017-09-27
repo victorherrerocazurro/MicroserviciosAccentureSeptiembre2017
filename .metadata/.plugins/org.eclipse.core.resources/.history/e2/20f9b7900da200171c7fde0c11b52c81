@@ -1,0 +1,6 @@
+package com.accenture.holamundospringbootweb.recursos;
+
+public class Libro {
+	private long id;
+	private String titulo;
+}

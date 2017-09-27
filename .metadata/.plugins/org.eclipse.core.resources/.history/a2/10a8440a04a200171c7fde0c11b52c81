@@ -1,0 +1,23 @@
+package com.accenture.holamundospringbootweb;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
+
+import com.accenture.holamundospringbootweb.controllers.HolaMundoController;
+
+@SpringBootApplication
+public class HolaMundoSpringBootWebApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(HolaMundoSpringBootWebApplication.class, args);
+	}
+	
+	@Bean
+	public HolaMundoController miBeanController() {
+		return new HolaMundoController("3");
+	}
+	
+	
+	
+}

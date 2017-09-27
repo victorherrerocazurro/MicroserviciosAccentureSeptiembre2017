@@ -1,0 +1,5 @@
+package com.accenture.holamundospringbootweb.persistence;
+
+public interface LibroRepository {
+
+}

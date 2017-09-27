@@ -1,0 +1,14 @@
+package com.accenture.holamundospringbootweb.controllers;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class HolaMundoController {
+
+		@RequestMapping("/pepito")
+		public String holaMundo() {
+			return null;
+		}
+	
+}

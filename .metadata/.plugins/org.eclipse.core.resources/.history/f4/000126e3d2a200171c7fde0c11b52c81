@@ -1,0 +1,33 @@
+package com.accenture.holamundospringbootweb.services;
+
+import java.util.List;
+
+import com.accenture.holamundospringbootweb.recursos.Autor;
+import com.accenture.holamundospringbootweb.recursos.Libro;
+
+public class SimpleLibrosServicio {
+
+	public Libro consultarLibroById(long id) {
+		return new Libro(1, "El Juego de Ender");
+	}
+
+	public Autor consultarAutorDeLibroByIdLibro(long idLibro) {
+		return new Autor();
+	}
+
+	public List<Libro> consultarLibrosByTitulo(String titulo) {
+		return null;
+	}
+
+	public long altaLibro(Libro libro) {
+		return 0;
+	}
+
+	public int modificarLibro(Libro libro) {
+		return 0;
+	}
+
+	public int borrarLibroById(long id) {
+		return 0;
+	}
+}

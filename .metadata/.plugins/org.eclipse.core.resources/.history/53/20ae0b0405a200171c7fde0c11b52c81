@@ -1,0 +1,13 @@
+package com.accenture.holamundospringbootweb.controllers;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class HolaMundoController {
+
+	public HolaMundoController(String nombre) {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+}

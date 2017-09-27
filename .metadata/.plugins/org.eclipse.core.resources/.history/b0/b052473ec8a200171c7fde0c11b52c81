@@ -1,0 +1,10 @@
+package com.simpsons.rest.thesimpsons.recursos;
+
+public class Personaje {
+	private String id;
+	private String name;
+	private String surname;
+	private int edad;
+	//private Personaje father;
+	private String idPadre;
+}

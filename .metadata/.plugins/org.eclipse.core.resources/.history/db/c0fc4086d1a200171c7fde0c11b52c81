@@ -1,0 +1,37 @@
+package com.accenture.holamundospringbootweb.services;
+
+import java.util.List;
+
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestParam;
+
+import com.accenture.holamundospringbootweb.recursos.Autor;
+import com.accenture.holamundospringbootweb.recursos.Libro;
+
+public class LibrosServicio {
+	
+	public Libro getLibroById(@PathVariable long id) {
+		return null;
+	}
+	
+	public Autor getAutorDeLibroByIdLibro(@PathVariable long id) {
+		return null;
+	}
+
+	public List<Libro> getLibrosByTitulo(@RequestParam(name="title") String titulo) {
+		return null;
+		
+	}
+	
+	public void postLibro(@RequestBody Libro libro) {
+
+	}
+	
+	public void putLibro(@RequestBody Libro libro) {
+		
+	}
+	
+	public void deleteLibroById(@PathVariable long id) {
+	}
+}
