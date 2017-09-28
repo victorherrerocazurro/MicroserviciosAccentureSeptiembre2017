@@ -42,6 +42,7 @@ public class LibrosRestController {
 		return servicio.consultarAutorDeLibroByIdLibro(id);
 	}
 
+	//http://localhost:8080/Libros?title=El juego de ender&estonoseusa=12&estotampoco=true
 	@RequestMapping(method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
 	public ResponseEntity<List<Libro>> getLibrosByTitulo(@RequestParam(name="title") String titulo) {
 		
