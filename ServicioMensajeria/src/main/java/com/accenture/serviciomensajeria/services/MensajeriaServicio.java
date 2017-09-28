@@ -16,6 +16,10 @@ public class MensajeriaServicio implements MensajeriaServicioInterface {
 	public long altaTransporte(Transporte transporte) {
 		// dar de alta de transporte
 		return repositorio.save(transporte).getIdTransporte();
+		
+		//Emitir el cobre del transporte
+		
+		//Avisar al transportista para que recoja el producto
 
 	}
 

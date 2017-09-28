@@ -4,6 +4,7 @@ import java.util.List;
 
 import com.accenture.tienda.resources.Persona;
 import com.accenture.tienda.resources.Producto;
+import com.accenture.tienda.resources.Tarjeta;
 
 public interface ComprasService {
 
@@ -22,6 +23,6 @@ public interface ComprasService {
 
 	long altaPersona(Persona persona);
 
-	long comprarProducto(Long idPersona, Long idProducto);
+	long comprarProducto(Long idPersona, Long idProducto, Tarjeta tarjeta);
 
 }

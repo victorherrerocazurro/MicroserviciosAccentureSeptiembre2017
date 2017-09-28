@@ -1,4 +1,4 @@
-package com.accenture.serviciomensajeria.resources;
+package com.accenture.tienda.resources;
 
 import java.io.Serializable;
 
