@@ -32,7 +32,8 @@ public class PedidoRestController {
 	@RequestMapping(method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE)
 	public ResponseEntity<Void> post(@RequestBody Pedido pedido) {
 		ResponseEntity<Void> respuesta;
-		servicio.comprarProducto(pedido.getIdPersona(), pedido.getIdProducto());
+		//TODO Faltaria recuperar los datos de la tarjeta de credito del usuario para realizar el pago
+		servicio.comprarProducto(pedido.getIdPersona(), pedido.getIdProducto(), null);
 		return new ResponseEntity<>(HttpStatus.OK);
 	}
 }
